@@ -5,16 +5,56 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding: 3  0px;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo {
   width: 220px;
+  margin: 50px;
   border-radius: 120px;
+  box-shadow: 5px 3px 3px rgb(99, 96, 96);
 }
+
+li {
+  display: inline-block;
+  margin: 40px;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  color: rgb(7, 0, 10);
+  transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+  border: 2px solid rgb(224, 218, 228);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+
 
 .paragraph-title {
   font-size: 32px;
   font-weight: bold;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px
+}
+
+.img-principal {
+  width: 30%;
+  box-shadow: 10px 5px 5px rgb(56, 55, 55);
+
 }
