@@ -71,6 +71,9 @@ h1 {
 
 }
 
+p {
+  font-size: 16px;
+}
 
 .footer-container {
  
@@ -125,7 +128,7 @@ footer {
 }
 
 #footer-email::placeholder {
-  color: azure;
+  color: rgb(37, 37, 37);
 }
 
 #footer-email-btn {
@@ -136,4 +139,24 @@ footer {
   outline: none;
   border: none;
   color: azure;
+}
+
+.service-list {
+  display: flex;
+  text-align: justify;
+  margin: 5em;
+}
+
+.service-li {
+  display: block;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.img-service {
+  width: 50%;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgb(56, 55, 55);
+  font-weight: bold;
 }
