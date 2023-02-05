@@ -28,6 +28,11 @@ li {
   margin: 30px;
 }
 
+.link-lista {
+  font-size: 30px;
+}
+
+
 a {
   color: white;
 }
@@ -73,12 +78,6 @@ h1 {
 
 p {
   font-size: 16px;
-}
-
-.footer-container {
- 
-  background-color: black;
-  padding-bottom: 4rem;
 }
 
 footer {
